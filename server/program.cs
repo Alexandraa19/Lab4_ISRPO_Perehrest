@@ -9,5 +9,12 @@ class Program
         Console.WriteLine("ФИО: Перехрест Александра");
         Console.WriteLine("Группа: ИСП-242");
         Console.WriteLine($"Дата и время: {DateTime.Now}");
+        Console.WriteLine();
+
+        Console.WriteLine("Меню:");
+        Console.WriteLine("1 — Показать ФИО");
+        Console.WriteLine("2 — Показать группу");
+        Console.WriteLine("3 — Показать дату");
+        Console.WriteLine("4 — Выход");
     }
 }
